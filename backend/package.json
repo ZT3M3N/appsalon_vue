@@ -1,0 +1,20 @@
+{
+  "name": "appsalon_vue_backend",
+  "version": "1.0.0",
+  "description": "Backend for AppSalon using MENV",
+  "license": "ISC",
+  "author": "Johan Moreno @No_Skill",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
